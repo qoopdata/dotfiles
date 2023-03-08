@@ -1,0 +1,46 @@
+# font size, font family
+font:
+  size: 14
+  normal:
+    family: "CaskaydiaCove Nerd Font Mono SemiBold" # link -> `https://www.nerdfonts.com/font-downloads`
+
+# window opacity, inside padding, decorations and title
+window:
+  startup_mode: Maximized
+  opacity: 0.85
+  padding:
+    x: 10
+    y: 7
+  decorations: None
+  dynamic_padding: true
+  title: Alacritty
+
+# theme
+colors:
+  name: ayu-dark
+  author: "qoopdata and chatgpt"
+  primary:
+    background: "#000000"
+    foreground: "#dcdfe4"
+  cursor:
+    text: "#0c0e15"
+    cursor: "#dcdfe4"
+  normal:
+    black: "#0c0e15"
+    red: "#ff3333"
+    green: "#9ccc65"
+    yellow: "#ffc600"
+    blue: "#66b0ff"
+    magenta: "#c792ea"
+    cyan: "#89ddff"
+    white: "#dcdfe4"
+  bright:
+    black: "#0c0e15"
+    red: "#ff3333"
+    green: "#9ccc65"
+    yellow: "#ffc600"
+    blue: "#66b0ff"
+    magenta: "#c792ea"
+    cyan: "#89ddff"
+    white: "#dcdfe4"
+theme: ayu-dark
